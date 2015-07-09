@@ -1,0 +1,6 @@
+[
+	"cn/geckos/effect/ChainEffect.ts",
+	"ChainEffectTest.ts",
+	"LoadingUI.ts",
+	"Main.ts"
+]
