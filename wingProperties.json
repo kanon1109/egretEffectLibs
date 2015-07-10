@@ -13,13 +13,23 @@
 			"children":[
 			{
 				"isFolder":false,
-				"key":"bgImage",
-				"name":"bgImage"
+				"key":"mc",
+				"name":"mc"
 			},
 			{
 				"isFolder":false,
-				"key":"egretIcon",
-				"name":"egretIcon"
+				"key":"blood",
+				"name":"blood"
+			},
+			{
+				"isFolder":false,
+				"key":"bee",
+				"name":"bee"
+			},
+			{
+				"isFolder":false,
+				"key":"blackHole",
+				"name":"blackHole"
 			}]
 		}
 	},

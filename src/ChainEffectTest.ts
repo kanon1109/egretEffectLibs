@@ -16,7 +16,7 @@ class ChainEffectTest extends egret.Sprite
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
     }
 
-    private onAddToStage():void
+    private onAddToStage(event:egret.Event):void
     {
         this.chainEffect = new ChainEffect(this);
         this.chainEffect.move(0, 0);

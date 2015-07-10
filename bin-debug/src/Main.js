@@ -98,7 +98,13 @@ var Main = (function (_super) {
         shape.graphics.drawRect(0, 0, this.stage.stageWidth, this.stage.stageHeight);
         shape.graphics.endFill();
         this.addChild(shape);
-        this.addChild(new ChainEffectTest());
+        //this.addChild(new ChainEffectTest());
+        //this.addChild(new RopeTest());
+        //this.addChild(new TreeTest());
+        //this.addChild(new OilPaintingEffectTest());
+        //this.addChild(new BloodSplatterTest());
+        //this.addChild(new BeeBehaviorTest());
+        this.addChild(new BlackHoleEffectTest());
     };
     return Main;
 })(egret.DisplayObjectContainer);

@@ -1,6 +1,6 @@
 [
-	"cn/geckos/effect/ChainEffect.ts",
-	"ChainEffectTest.ts",
+	"cn/geckos/effect/BlackHoleEffect.ts",
+	"BlackHoleEffectTest.ts",
 	"LoadingUI.ts",
 	"Main.ts"
 ]

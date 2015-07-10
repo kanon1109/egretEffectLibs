@@ -1,25 +1,31 @@
 {
 	"resources": [
 		{
-			"name": "bgImage",
+			"name": "mc",
 			"type": "image",
-			"url": "assets/bg.jpg"
+			"url": "assets/mc.png"
 		},
 		{
-			"name": "egretIcon",
+			"name": "blood",
 			"type": "image",
-			"url": "assets/egret_icon.png"
+			"url": "assets/blood.png"
 		},
 		{
-			"name": "description",
-			"type": "json",
-			"url": "config/description.json"
+			"name": "bee",
+			"type": "image",
+			"url": "assets/bee.png"
+		}
+		,
+		{
+			"name": "blackHole",
+			"type": "image",
+			"url": "assets/blackHole.png"
 		}
 	],
 	"groups": [
 		{
 			"name": "preload",
-			"keys": "bgImage,egretIcon"
+			"keys": "mc,blood,bee,blackHole"
 		}
 	]
 }
