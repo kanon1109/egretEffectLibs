@@ -21,11 +21,17 @@
 			"type": "image",
 			"url": "assets/blackHole.png"
 		}
+		,
+		{
+			"name": "flame",
+			"type": "image",
+			"url": "assets/flame.png"
+		}
 	],
 	"groups": [
 		{
 			"name": "preload",
-			"keys": "mc,blood,bee,blackHole"
+			"keys": "mc,blood,bee,blackHole,flame"
 		}
 	]
 }

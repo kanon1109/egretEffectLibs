@@ -30,6 +30,11 @@
 				"isFolder":false,
 				"key":"blackHole",
 				"name":"blackHole"
+			},
+			{
+				"isFolder":false,
+				"key":"flame",
+				"name":"flame"
 			}]
 		}
 	},

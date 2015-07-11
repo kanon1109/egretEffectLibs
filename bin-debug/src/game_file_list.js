@@ -1,6 +1,6 @@
 var game_file_list = [
-	"cn/geckos/effect/BlackHoleEffect.js",
-	"BlackHoleEffectTest.js",
+	"cn/geckos/effect/RotationEasing.js",
 	"LoadingUI.js",
+	"RotationEasingTest.js",
 	"Main.js"
 ];

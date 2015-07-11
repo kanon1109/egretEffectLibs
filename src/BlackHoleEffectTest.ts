@@ -81,7 +81,7 @@ class BlackHoleEffectTest extends egret.Sprite
         this.holeSpt.addChild(bhMc);
         blackHole.useData = bhMc;
         egret.Tween.get(bhMc).to({ scaleX:1, scaleY:1 }, 700 );
-        egret.Tween.get(bhMc).to({ rotation:360, repeat: -1 }, 3000 );
+        egret.Tween.get(bhMc).to({ rotation:1440, repeat: -1 }, 3000 );
     }
 
 

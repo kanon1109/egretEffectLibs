@@ -1,6 +1,6 @@
 [
-	"cn/geckos/effect/BlackHoleEffect.ts",
-	"BlackHoleEffectTest.ts",
+	"cn/geckos/effect/RotationEasing.ts",
 	"LoadingUI.ts",
+	"RotationEasingTest.ts",
 	"Main.ts"
 ]

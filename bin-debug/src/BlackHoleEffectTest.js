@@ -58,7 +58,7 @@ var BlackHoleEffectTest = (function (_super) {
         this.holeSpt.addChild(bhMc);
         blackHole.useData = bhMc;
         egret.Tween.get(bhMc).to({ scaleX: 1, scaleY: 1 }, 700);
-        egret.Tween.get(bhMc).to({ rotation: 360, repeat: -1 }, 3000);
+        egret.Tween.get(bhMc).to({ rotation: 1440, repeat: -1 }, 3000);
     };
     __egretProto__.attenuationHandler = function (event) {
         //这里可以将黑洞的显示效果慢慢缩小。

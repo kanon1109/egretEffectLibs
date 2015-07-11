@@ -17,7 +17,7 @@ var cn;
                     if (fps === void 0) { fps = 60; }
                     _super.call(this);
                     //最短距离
-                    this.minDis = 15;
+                    this.minDis = 10;
                     //结束后缓动时间（毫秒）
                     this.overTime = 1000;
                     //摩擦力
@@ -94,8 +94,7 @@ var cn;
                             vy = this.angleSpeed * Math.sin(radians);
                             obj.x += vx;
                             obj.y += vy;
-                            var angle = radians / Math.PI * 180;
-                            obj.rotation = angle;
+                            obj.rotation = radians / Math.PI * 180;
                         }
                     }
                     this.timeFrame--;

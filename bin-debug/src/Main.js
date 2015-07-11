@@ -104,7 +104,10 @@ var Main = (function (_super) {
         //this.addChild(new OilPaintingEffectTest());
         //this.addChild(new BloodSplatterTest());
         //this.addChild(new BeeBehaviorTest());
-        this.addChild(new BlackHoleEffectTest());
+        //this.addChild(new BlackHoleEffectTest());
+        //this.addChild(new TextEffectTest());
+        //this.addChild(new FlameGunEffectTest());
+        this.addChild(new RotationEasingTest());
     };
     return Main;
 })(egret.DisplayObjectContainer);

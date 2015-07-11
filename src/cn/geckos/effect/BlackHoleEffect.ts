@@ -21,7 +21,7 @@ export class BlackHoleEffect extends egret.EventDispatcher
     //是否结束
     private isOver:boolean;
     //最短距离
-    private minDis:number = 15;
+    private minDis:number = 10;
     //持续时间（毫秒）
     private time:number;
     //持续时间（帧）
@@ -123,11 +123,10 @@ export class BlackHoleEffect extends egret.EventDispatcher
                 vy = this.angleSpeed * Math.sin(radians);
                 obj.x += vx;
                 obj.y += vy;
-                var angle:number = radians / Math.PI * 180;
-                obj.rotation = angle;
+                obj.rotation = radians / Math.PI * 180;
             }
         }
-        this.timeFrame--
+        this.timeFrame--;
         if (this.timeFrame <= 0 && !this.isOver)
         {
             this.timeFrame = 0;
@@ -138,7 +137,7 @@ export class BlackHoleEffect extends egret.EventDispatcher
         if (this.isOver)
         {
             //进入衰减期
-            this.overTimeFrame--
+            this.overTimeFrame--;
             if (this.overTimeFrame <= 0)
             {
                 //衰减期结束
