@@ -107,7 +107,8 @@ var Main = (function (_super) {
         //this.addChild(new BlackHoleEffectTest());
         //this.addChild(new TextEffectTest());
         //this.addChild(new FlameGunEffectTest());
-        this.addChild(new RotationEasingTest());
+        //this.addChild(new RotationEasingTest());
+        this.addChild(new WingmanMotionEffectTest());
     };
     return Main;
 })(egret.DisplayObjectContainer);

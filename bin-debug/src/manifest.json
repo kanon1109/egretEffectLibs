@@ -1,6 +1,6 @@
 [
-	"cn/geckos/effect/RotationEasing.ts",
+	"cn/geckos/effect/WingmanMotionEffect.ts",
 	"LoadingUI.ts",
-	"RotationEasingTest.ts",
+	"WingmanMotionEffectTest.ts",
 	"Main.ts"
 ]

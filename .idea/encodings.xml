@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/src/OilPaintingEffectTest.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/TextEffectTest.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/TreeTest.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/WingmanMotionEffectTest.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/BeeBehavior.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/BlackHoleEffect.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/BloodSplatter.ts" charset="UTF-8" />
@@ -18,5 +19,6 @@
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/RotationEasing.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/TextEffect.ts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/Tree.ts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/geckos/effect/WingmanMotionEffect.ts" charset="UTF-8" />
   </component>
 </project>
