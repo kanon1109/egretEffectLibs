@@ -1,6 +1,6 @@
 var game_file_list = [
-	"cn/geckos/effect/WingmanMotionEffect.js",
+	"cn/geckos/effect/SlotsEffect.js",
 	"LoadingUI.js",
-	"WingmanMotionEffectTest.js",
+	"SlotsTest.js",
 	"Main.js"
 ];
