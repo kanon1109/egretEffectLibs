@@ -1,6 +1,6 @@
 var game_file_list = [
-	"cn/geckos/effect/SlotsEffect.js",
+	"cn/geckos/effect/ResidueShadowEffect.js",
 	"LoadingUI.js",
-	"SlotsTest.js",
+	"ResidueShadowEffectTest.js",
 	"Main.js"
 ];

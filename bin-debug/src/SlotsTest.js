@@ -117,4 +117,3 @@ var SlotsTest = (function (_super) {
     return SlotsTest;
 })(egret.Sprite);
 SlotsTest.prototype.__class__ = "SlotsTest";
-//# sourceMappingURL=SlotsTest.js.map

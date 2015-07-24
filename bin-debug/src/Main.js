@@ -109,7 +109,8 @@ var Main = (function (_super) {
         //this.addChild(new FlameGunEffectTest());
         //this.addChild(new RotationEasingTest());
         //this.addChild(new WingmanMotionEffectTest());
-        this.addChild(new SlotsTest());
+        //this.addChild(new SlotsTest());
+        this.addChild(new ResidueShadowEffectTest());
     };
     return Main;
 })(egret.DisplayObjectContainer);

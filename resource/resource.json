@@ -27,11 +27,23 @@
 			"type": "image",
 			"url": "assets/flame.png"
 		}
+		,
+		{
+			"name": "m1",
+			"type": "image",
+			"url": "assets/m1.png"
+		}
+		,
+		{
+			"name": "m1Json",
+			"type": "json",
+			"url": "assets/m1.json"
+		}
 	],
 	"groups": [
 		{
 			"name": "preload",
-			"keys": "mc,blood,bee,blackHole,flame"
+			"keys": "mc,blood,bee,blackHole,flame,m1,m1Json"
 		}
 	]
 }

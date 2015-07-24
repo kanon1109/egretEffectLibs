@@ -250,4 +250,3 @@ var cn;
         })(effect = geckos.effect || (geckos.effect = {}));
     })(geckos = cn.geckos || (cn.geckos = {}));
 })(cn || (cn = {}));
-//# sourceMappingURL=SlotsEffect.js.map
