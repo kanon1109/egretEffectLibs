@@ -22,15 +22,15 @@ var ResidueShadowEffectTest = (function (_super) {
         this.batMc.anchorY = .5;
         this.batMc.play(-1);
         this.residueShadowEffect = new ResidueShadowEffect(this);
-        //this.residueShadowEffect.addGoods(this.mc);
+        this.residueShadowEffect.addGoods(this.mc);
         //this.residueShadowEffect.addGoods(this.mc2);
         this.residueShadowEffect.addGoods(this.batMc);
         this.addEventListener(egret.Event.ENTER_FRAME, this.loop, this);
     }
     var __egretProto__ = ResidueShadowEffectTest.prototype;
     __egretProto__.loop = function (event) {
-        //this.batMc.x += 2;
-        //this.batMc.y += 2;
+        this.mc.x += 2;
+        this.mc.y += 2;
         this.residueShadowEffect.renderer();
     };
     __egretProto__.onAddToStage = function (event) {

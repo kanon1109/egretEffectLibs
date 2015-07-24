@@ -34,7 +34,7 @@ class ResidueShadowEffectTest extends egret.Sprite
         this.batMc.play(-1);
 
         this.residueShadowEffect = new ResidueShadowEffect(this);
-        //this.residueShadowEffect.addGoods(this.mc);
+        this.residueShadowEffect.addGoods(this.mc);
         //this.residueShadowEffect.addGoods(this.mc2);
         this.residueShadowEffect.addGoods(this.batMc);
 
@@ -43,8 +43,8 @@ class ResidueShadowEffectTest extends egret.Sprite
 
     private loop(event:egret.Event):void
     {
-        //this.batMc.x += 2;
-        //this.batMc.y += 2;
+        this.mc.x += 2;
+        this.mc.y += 2;
         this.residueShadowEffect.renderer();
     }
 
