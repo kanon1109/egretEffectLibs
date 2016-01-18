@@ -73,6 +73,7 @@ export class BeeBehavior
      */
     public destroy():void
     {
+		if(!this.beeList) return;
         var count:number = this.beeList.length;
         for(var i:number = count - 1; i >= 0; --i)
         {
