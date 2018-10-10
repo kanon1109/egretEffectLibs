@@ -21,10 +21,6 @@ export class BloodSplatter
     private assest:string;
     //容器
     private container:egret.DisplayObjectContainer;
-    //舞台宽度
-    private stageWidth:number;
-    //舞台高度
-    private stageHeight:number;
     //血的纹理
     private bloodTextrue:egret.Texture;
     //存放血液的列表
@@ -41,8 +37,6 @@ export class BloodSplatter
      */
     public constructor(container:egret.DisplayObjectContainer,
                           assest:string,
-                          stageWidth:number = 550,
-                          stageHeight:number = 400,
                           num:number = 12,
                           dis:number = 65,
                           intensity:number = .8,
@@ -54,8 +48,6 @@ export class BloodSplatter
         this.size = size;
         this.assest = assest;
         this.container = container;
-        this.stageWidth = stageWidth;
-        this.stageHeight = stageHeight;
         this.bloodTextrue = RES.getRes(assest);
         this.bloodList = [];
     }
