@@ -17,8 +17,8 @@ class SlotsTest extends egret.Sprite
 		btn1.graphics.beginFill(0xff00ff, 1);
 		btn1.graphics.drawRect(0, 0, 50, 50);
 		btn1.graphics.endFill();
-		btn1.anchorX = .5;
-		btn1.anchorY = .5;
+		btn1.anchorOffsetX = 25;
+		btn1.anchorOffsetY = 25;
 		btn1.x = 200;
 		btn1.y = 200;
         btn1.touchEnabled = true;
@@ -28,8 +28,8 @@ class SlotsTest extends egret.Sprite
 		btn2.graphics.beginFill(0xff00ff, 1);
 		btn2.graphics.drawRect(0, 0, 50, 50);
 		btn2.graphics.endFill();
-		btn2.anchorX = .5;
-		btn2.anchorY = .5;
+		btn2.anchorOffsetX = 25;
+		btn2.anchorOffsetY = 25;
 		btn2.x = 300;
 		btn2.y = 200;
         btn2.touchEnabled = true;
@@ -40,8 +40,8 @@ class SlotsTest extends egret.Sprite
         btn3.graphics.beginFill(0xff00ff, 1);
         btn3.graphics.drawRect(0, 0, 50, 50);
         btn3.graphics.endFill();
-        btn3.anchorX = .5;
-        btn3.anchorY = .5;
+        btn3.anchorOffsetX = 25;
+		btn3.anchorOffsetY = 25;
         btn3.x = 400;
         btn3.y = 200;
         btn3.touchEnabled = true;
@@ -64,8 +64,8 @@ class SlotsTest extends egret.Sprite
 			mc.graphics.beginFill(0x00ffff, 1);
 			mc.graphics.drawRect(0, 0, 50, 50);
 			mc.graphics.endFill();
-			mc.anchorX = .5;
-			mc.anchorY = .5;
+			mc.anchorOffsetX = 25;
+			mc.anchorOffsetY = 25;
 			mc.x = startX + (r - 1) * (50 + gapH);
 			mc.y = startY + (c - 1) * (50 + gapV);
 			mc.name = "mc" + (i + 1);

@@ -24,10 +24,10 @@ class RopeTest extends egret.Sprite
         this.mc2 = new egret.Bitmap(texture);
         this.addChild(this.mc1);
         this.addChild(this.mc2);
-        this.mc1.anchorX = .5;
-        this.mc1.anchorY = .5;
-        this.mc2.anchorX = .5;
-        this.mc2.anchorY = .5;
+        this.mc1.anchorOffsetX = .5 * this.mc1.width;
+        this.mc1.anchorOffsetY = .5 * this.mc1.height;
+        this.mc2.anchorOffsetX = .5 * this.mc2.width;
+        this.mc2.anchorOffsetY = .5 * this.mc2.height;
         this.mc1.touchEnabled = true;
         this.mc2.touchEnabled = true;
         this.mc1.x = 100;

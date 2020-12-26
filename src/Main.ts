@@ -106,7 +106,7 @@ class Main extends egret.DisplayObjectContainer {
      */
     private createGameScene():void
     {
-        egret.Profiler.getInstance().run();
+        // egret.Profiler.getInstance().run();
         var shape:egret.Shape = new egret.Shape();
         shape.graphics.beginFill( 0x003366, 1);
         shape.graphics.drawRect(0, 0, this.stage.stageWidth, this.stage.stageHeight);

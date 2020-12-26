@@ -218,8 +218,8 @@ export class Flame extends egret.Sprite
         this.scaleSpeed = scaleSpeed;
         this.alphaSpeed = alphaSpeed;
         this.bitmap = new egret.Bitmap(flameTexture);
-        this.bitmap.anchorX = .5;
-        this.bitmap.anchorY = .5;
+        this.bitmap.anchorOffsetX = .5 * this.bitmap.width;
+        this.bitmap.anchorOffsetY = .5 * this.bitmap.height;
         this.addChild(this.bitmap);
     }
 

@@ -20,8 +20,8 @@ class WingmanMotionEffectTest extends egret.Sprite
         this.mc.graphics.beginFill(0xff00ff, 1);
         this.mc.graphics.drawRect(0, 0, 50, 50);
         this.mc.graphics.endFill();
-        this.mc.anchorX = .5;
-        this.mc.anchorY = .5;
+        this.mc.anchorOffsetX = .5 * 50;
+        this.mc.anchorOffsetY = .5 * 50;
         this.mc.x = 200;
         this.mc.y = 200;
         this.addChild(this.mc);

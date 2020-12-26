@@ -31,18 +31,9 @@ export class Tree
         //结束点的位置根据角度来倾斜
         var endX:number = startX + length * Math.cos(angle);
         var endY:number = startY + length * Math.sin(angle);
-        var colorTf:egret.ColorTransform = new egret.ColorTransform();
-        //根据深度显示颜色
-        if (depth > 2)
-        {
-            colorTf.redOffset = (Math.random() * 64) + 64;
-            colorTf.greenOffset = 50;
-            colorTf.blueOffset = 25;
-        }
-        else colorTf.greenOffset = (Math.random() * 64) + 128;
         /*graphics.lineStyle(branchWidth, colorTf.color, 1, true,
                             LineScaleMode.NORMAL, CapsStyle.ROUND);*/
-        graphics.lineStyle(branchWidth, colorTf.color, 1, true);
+        graphics.lineStyle(branchWidth, 0xff0000, 1, true);
         graphics.moveTo(startX, startY);
         graphics.lineTo(endX, endY);
         var newDepth:number = depth - 1;

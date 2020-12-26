@@ -28,8 +28,8 @@ class ResidueShadowEffectTest extends egret.Sprite
         this.batMc = new egret.MovieClip(mcdf.generateMovieClipData());
         this.addChild(this.batMc);
         this.batMc.rotation = 40;
-        this.batMc.anchorX = .5;
-        this.batMc.anchorY = .5;
+        this.batMc.anchorOffsetX = .5 * this.batMc.width;
+        this.batMc.anchorOffsetY = .5 * this.batMc.width;
 
         this.batMc.play(-1);
 

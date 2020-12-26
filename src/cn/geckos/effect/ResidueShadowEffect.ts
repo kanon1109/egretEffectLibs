@@ -99,8 +99,8 @@ export class ResidueShadowEffect
             var shadowBmp:egret.Bitmap = new egret.Bitmap(texture);
             shadowBmp.x = obj.x;
             shadowBmp.y = obj.y;
-            shadowBmp.anchorX = obj.anchorX;
-            shadowBmp.anchorY = obj.anchorY;
+            shadowBmp.anchorOffsetX = obj.anchorOffsetX;
+            shadowBmp.anchorOffsetY = obj.anchorOffsetY;
             shadowBmp.alpha = obj.alpha;
             shadowBmp.skewX = obj.skewX;
             shadowBmp.skewY = obj.skewY;

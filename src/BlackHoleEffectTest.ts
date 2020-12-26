@@ -72,8 +72,8 @@ class BlackHoleEffectTest extends egret.Sprite
         this.holeList.push(blackHole);
 
         var bhMc:egret.Bitmap = new egret.Bitmap(this.texture);
-        bhMc.anchorX = .5;
-        bhMc.anchorY = .5;
+        bhMc.anchorOffsetX = .5 * bhMc.width;
+        bhMc.anchorOffsetY = .5 * bhMc.height;
         bhMc.x = event.stageX;
         bhMc.y = event.stageY;
         bhMc.scaleX = 0;

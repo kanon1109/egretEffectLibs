@@ -205,8 +205,8 @@ export class BlackHoleEvent extends egret.Event
     public constructor(type:string, obj:egret.DisplayObject=null,
                        bubbles:boolean = false, cancelable:boolean = false)
     {
-        this.dObj = obj;
         super(type, bubbles, cancelable);
+        this.dObj = obj;
     }
 
     public clone():BlackHoleEvent

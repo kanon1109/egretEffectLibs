@@ -1,0 +1,40 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/cn/geckos/effect/OilPaintingEffect.js",
+		"bin-debug/cn/geckos/effect/WingmanMotionEffect.js",
+		"bin-debug/cn/geckos/effect/BlackHoleEffect.js",
+		"bin-debug/cn/geckos/effect/BloodSplatter.js",
+		"bin-debug/cn/geckos/effect/ChainEffect.js",
+		"bin-debug/cn/geckos/effect/FlameGunEffect.js",
+		"bin-debug/cn/geckos/effect/BeeBehavior.js",
+		"bin-debug/cn/geckos/effect/ResidueShadowEffect.js",
+		"bin-debug/cn/geckos/effect/Rope.js",
+		"bin-debug/cn/geckos/effect/RotationEasing.js",
+		"bin-debug/cn/geckos/effect/SlotsEffect.js",
+		"bin-debug/cn/geckos/effect/TextEffect.js",
+		"bin-debug/cn/geckos/effect/Tree.js",
+		"bin-debug/TreeTest.js",
+		"bin-debug/BlackHoleEffectTest.js",
+		"bin-debug/BeeBehaviorTest.js",
+		"bin-debug/BloodSplatterTest.js",
+		"bin-debug/ChainEffectTest.js",
+		"bin-debug/FlameGunEffectTest.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/OilPaintingEffectTest.js",
+		"bin-debug/ResidueShadowEffectTest.js",
+		"bin-debug/RopeTest.js",
+		"bin-debug/RotationEasingTest.js",
+		"bin-debug/SlotsTest.js",
+		"bin-debug/TextEffectTest.js",
+		"bin-debug/WingmanMotionEffectTest.js"
+	]
+}

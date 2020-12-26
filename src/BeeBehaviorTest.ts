@@ -20,8 +20,8 @@ class BeeBehaviorTest extends egret.Sprite
         for (var i:number = 0; i < 200; i++)
         {
             var beeBitmap:egret.Bitmap = new egret.Bitmap(this.texture);
-            beeBitmap.anchorX = .5;
-            beeBitmap.anchorY = .5;
+            beeBitmap.anchorOffsetX = beeBitmap.width / 2;
+            beeBitmap.anchorOffsetY = beeBitmap.height / 2;
             beeBitmap.x = Math.random() * this.stage.stageWidth;
             beeBitmap.y = Math.random() * this.stage.stageHeight;
             var bee:Bee = new Bee(beeBitmap);
@@ -40,8 +40,8 @@ class BeeBehaviorTest extends egret.Sprite
     private mouseDownHandler(event:egret.TouchEvent):void
     {
         var beeBitmap:egret.Bitmap = new egret.Bitmap(this.texture);
-        beeBitmap.anchorX = .5;
-        beeBitmap.anchorY = .5;
+        beeBitmap.anchorOffsetX = beeBitmap.width / 2;
+        beeBitmap.anchorOffsetY = beeBitmap.height / 2;
         beeBitmap.x = Math.random() * this.stage.stageWidth;
         beeBitmap.y = Math.random() * this.stage.stageHeight;
         var bee:Bee = new Bee(beeBitmap);
