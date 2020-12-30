@@ -1,8 +1,8 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import BeeBehavior = cn.geckos.effect.BeeBehavior;
-import Bee = cn.geckos.effect.Bee;
+import BeeBehavior = effect.BeeBehavior;
+import Bee = effect.Bee;
 class BeeBehaviorTest extends egret.Sprite
 {
     private beeBehavior:BeeBehavior;

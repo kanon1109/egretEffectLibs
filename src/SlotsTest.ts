@@ -3,7 +3,7 @@
  * @author 
  *
  */
-import SlotsEffect = cn.geckos.effect.SlotsEffect;
+import SlotsEffect = effect.SlotsEffect;
 class SlotsTest extends egret.Sprite
 {
 	private slotsEffect:SlotsEffect;

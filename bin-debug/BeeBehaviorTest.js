@@ -11,8 +11,8 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var BeeBehavior = cn.geckos.effect.BeeBehavior;
-var Bee = cn.geckos.effect.Bee;
+var BeeBehavior = effect.BeeBehavior;
+var Bee = effect.Bee;
 var BeeBehaviorTest = (function (_super) {
     __extends(BeeBehaviorTest, _super);
     function BeeBehaviorTest() {

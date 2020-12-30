@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by kanon on 2015/7/11.
  */
-var FlameGunEffect = cn.geckos.effect.FlameGunEffect;
+var FlameGunEffect = effect.FlameGunEffect;
 var FlameGunEffectTest = (function (_super) {
     __extends(FlameGunEffectTest, _super);
     function FlameGunEffectTest() {

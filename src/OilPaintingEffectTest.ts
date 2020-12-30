@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import OilPaintingEffect = cn.geckos.effect.OilPaintingEffect;
+import OilPaintingEffect = effect.OilPaintingEffect;
 class OilPaintingEffectTest extends egret.Sprite
 {
     private oilPaintingEffect:OilPaintingEffect;

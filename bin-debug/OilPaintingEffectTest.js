@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var OilPaintingEffect = cn.geckos.effect.OilPaintingEffect;
+var OilPaintingEffect = effect.OilPaintingEffect;
 var OilPaintingEffectTest = (function (_super) {
     __extends(OilPaintingEffectTest, _super);
     function OilPaintingEffectTest() {

@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var Tree = cn.geckos.effect.Tree;
+var Tree = effect.Tree;
 var TreeTest = (function (_super) {
     __extends(TreeTest, _super);
     function TreeTest() {

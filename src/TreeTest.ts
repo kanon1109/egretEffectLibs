@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import Tree = cn.geckos.effect.Tree;
+import Tree = effect.Tree;
 class TreeTest extends egret.Sprite
 {
     public constructor()

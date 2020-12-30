@@ -1,7 +1,7 @@
 /**
  * Created by kanon on 2015/7/11.
  */
-import TextEffect = cn.geckos.effect.TextEffect;
+import TextEffect = effect.TextEffect;
 class TextEffectTest extends egret.Sprite
 {
     private textEffect:TextEffect;

@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/9.
  */
-var ChainEffect = cn.geckos.effect.ChainEffect;
+var ChainEffect = effect.ChainEffect;
 var ChainEffectTest = (function (_super) {
     __extends(ChainEffectTest, _super);
     function ChainEffectTest() {

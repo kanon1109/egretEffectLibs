@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/9.
  */
-import ChainEffect = cn.geckos.effect.ChainEffect;
+import ChainEffect = effect.ChainEffect;
 class ChainEffectTest extends egret.Sprite
 {
     private chainEffect:ChainEffect;

@@ -49,7 +49,7 @@ class Main extends egret.DisplayObjectContainer {
         //初始化Resource资源加载库
         //initiate Resource loading library
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
-        RES.loadConfig("resource/resource.json", "resource/");
+        RES.loadConfig("resource/default.res.json", "resource/");
     }
 
     /**
@@ -112,19 +112,20 @@ class Main extends egret.DisplayObjectContainer {
         shape.graphics.drawRect(0, 0, this.stage.stageWidth, this.stage.stageHeight);
         shape.graphics.endFill();
         this.addChild(shape);
-        //this.addChild(new ChainEffectTest());
+        // this.addChild(new ChainEffectTest());
         //this.addChild(new RopeTest());
         //this.addChild(new TreeTest());
         //this.addChild(new OilPaintingEffectTest());
         //this.addChild(new BloodSplatterTest());
-        //this.addChild(new BeeBehaviorTest());
+        // this.addChild(new BeeBehaviorTest());
         //this.addChild(new BlackHoleEffectTest());
         //this.addChild(new TextEffectTest());
-        //this.addChild(new FlameGunEffectTest());
+        this.addChild(new WaterWaveTest());
+        
         //this.addChild(new RotationEasingTest());
         //this.addChild(new WingmanMotionEffectTest());
         //this.addChild(new SlotsTest());
-        this.addChild(new ResidueShadowEffectTest());
+        // this.addChild(new ResidueShadowEffectTest());
 
 
     }

@@ -13,7 +13,7 @@ r.prototype = e.prototype, t.prototype = new r();
  * @author
  *
  */
-var SlotsEffect = cn.geckos.effect.SlotsEffect;
+var SlotsEffect = effect.SlotsEffect;
 var SlotsTest = (function (_super) {
     __extends(SlotsTest, _super);
     function SlotsTest() {

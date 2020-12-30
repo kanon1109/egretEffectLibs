@@ -1,7 +1,7 @@
 /**
  * Created by kanon on 2015/7/11.
  */
-import WingmanMotionEffect = cn.geckos.effect.WingmanMotionEffect;
+import WingmanMotionEffect = effect.WingmanMotionEffect;
 class WingmanMotionEffectTest extends egret.Sprite
 {
     private mouseX:number = 0;

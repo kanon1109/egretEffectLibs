@@ -1,7 +1,7 @@
 /**
  * Created by kanon on 2015/7/11.
  */
-import FlameGunEffect = cn.geckos.effect.FlameGunEffect;
+import FlameGunEffect = effect.FlameGunEffect;
 class FlameGunEffectTest extends egret.Sprite
 {
     private fge:FlameGunEffect;

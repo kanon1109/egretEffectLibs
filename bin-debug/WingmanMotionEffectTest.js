@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by kanon on 2015/7/11.
  */
-var WingmanMotionEffect = cn.geckos.effect.WingmanMotionEffect;
+var WingmanMotionEffect = effect.WingmanMotionEffect;
 var WingmanMotionEffectTest = (function (_super) {
     __extends(WingmanMotionEffectTest, _super);
     function WingmanMotionEffectTest() {

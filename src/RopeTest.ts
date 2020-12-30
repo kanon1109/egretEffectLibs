@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import Rope = cn.geckos.effect.Rope;
+import Rope = effect.Rope;
 class RopeTest extends egret.Sprite
 {
     private rope:Rope;

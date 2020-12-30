@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import BloodSplatter = cn.geckos.effect.BloodSplatter;
+import BloodSplatter = effect.BloodSplatter;
 class BloodSplatterTest extends egret.Sprite
 {
     private bloodSplatter:BloodSplatter;

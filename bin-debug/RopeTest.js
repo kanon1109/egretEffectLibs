@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var Rope = cn.geckos.effect.Rope;
+var Rope = effect.Rope;
 var RopeTest = (function (_super) {
     __extends(RopeTest, _super);
     function RopeTest() {

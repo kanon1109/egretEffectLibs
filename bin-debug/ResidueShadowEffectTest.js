@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/24.
  */
-var ResidueShadowEffect = cn.geckos.effect.ResidueShadowEffect;
+var ResidueShadowEffect = effect.ResidueShadowEffect;
 var ResidueShadowEffectTest = (function (_super) {
     __extends(ResidueShadowEffectTest, _super);
     function ResidueShadowEffectTest() {

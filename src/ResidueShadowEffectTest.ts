@@ -1,7 +1,7 @@
 /**
  * Created by tangben on 2015/7/24.
  */
-import ResidueShadowEffect = cn.geckos.effect.ResidueShadowEffect;
+import ResidueShadowEffect = effect.ResidueShadowEffect;
 class ResidueShadowEffectTest extends egret.Sprite
 {
     private residueShadowEffect:ResidueShadowEffect;

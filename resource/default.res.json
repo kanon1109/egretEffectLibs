@@ -1,23 +1,50 @@
 {
-	"groups":[
-	{
-		"keys":"bg_jpg,egret_icon_png,description_json",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"bg_jpg",
-		"type":"image",
-		"url":"assets/bg.jpg"
-	},
-	{
-		"name":"egret_icon_png",
-		"type":"image",
-		"url":"assets/egret_icon.png"
-	},
-	{
-		"name":"description_json",
-		"type":"json",
-		"url":"config/description.json"
-	}]
+	"groups": [
+		{
+			"keys": "mc,blood,bee,blackHole,flame,m1,m1Json,water_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/mc.png",
+			"type": "image",
+			"name": "mc"
+		},
+		{
+			"url": "assets/blood.png",
+			"type": "image",
+			"name": "blood"
+		},
+		{
+			"url": "assets/bee.png",
+			"type": "image",
+			"name": "bee"
+		},
+		{
+			"url": "assets/blackHole.png",
+			"type": "image",
+			"name": "blackHole"
+		},
+		{
+			"url": "assets/flame.png",
+			"type": "image",
+			"name": "flame"
+		},
+		{
+			"url": "assets/m1.png",
+			"type": "image",
+			"name": "m1"
+		},
+		{
+			"url": "assets/m1.json",
+			"type": "json",
+			"name": "m1Json"
+		},
+		{
+			"url": "assets/water.jpg",
+			"type": "image",
+			"name": "water_jpg"
+		}
+	]
 }

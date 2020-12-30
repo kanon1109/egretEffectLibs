@@ -1,8 +1,8 @@
 /**
  * Created by tangben on 2015/7/10.
  */
-import BlackHoleEffect = cn.geckos.effect.BlackHoleEffect;
-import BlackHoleEvent = cn.geckos.effect.BlackHoleEvent;
+import BlackHoleEffect = effect.BlackHoleEffect;
+import BlackHoleEvent = effect.BlackHoleEvent;
 class BlackHoleEffectTest extends egret.Sprite
 {
     private blackHole:BlackHoleEffect;

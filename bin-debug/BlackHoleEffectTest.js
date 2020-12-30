@@ -11,8 +11,8 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var BlackHoleEffect = cn.geckos.effect.BlackHoleEffect;
-var BlackHoleEvent = cn.geckos.effect.BlackHoleEvent;
+var BlackHoleEffect = effect.BlackHoleEffect;
+var BlackHoleEvent = effect.BlackHoleEvent;
 var BlackHoleEffectTest = (function (_super) {
     __extends(BlackHoleEffectTest, _super);
     function BlackHoleEffectTest() {

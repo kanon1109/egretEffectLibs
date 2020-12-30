@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by kanon on 2015/7/11.
  */
-var TextEffect = cn.geckos.effect.TextEffect;
+var TextEffect = effect.TextEffect;
 var TextEffectTest = (function (_super) {
     __extends(TextEffectTest, _super);
     function TextEffectTest() {

@@ -13,7 +13,7 @@ r.prototype = e.prototype, t.prototype = new r();
  * @author Kanon
  *
  */
-var RotationEasing = cn.geckos.effect.RotationEasing;
+var RotationEasing = effect.RotationEasing;
 var RotationEasingTest = (function (_super) {
     __extends(RotationEasingTest, _super);
     function RotationEasingTest() {

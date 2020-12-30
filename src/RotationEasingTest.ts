@@ -3,7 +3,7 @@
  * @author Kanon
  *
  */
-import RotationEasing = cn.geckos.effect.RotationEasing;
+import RotationEasing = effect.RotationEasing;
 class RotationEasingTest extends egret.Sprite
 {
     private mouseX:number;

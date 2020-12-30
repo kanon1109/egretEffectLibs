@@ -11,7 +11,7 @@ r.prototype = e.prototype, t.prototype = new r();
 /**
  * Created by tangben on 2015/7/10.
  */
-var BloodSplatter = cn.geckos.effect.BloodSplatter;
+var BloodSplatter = effect.BloodSplatter;
 var BloodSplatterTest = (function (_super) {
     __extends(BloodSplatterTest, _super);
     function BloodSplatterTest() {
